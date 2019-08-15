@@ -1,4 +1,10 @@
 # vuedemo
+## 简介： 这是个移动端的项目，内部已经封装了axios请求，用vw进行的适配,引入了mintui这个移动端的UI框架。
+```postcss
+   eslint
+   mintui
+   vw 
+```
 
 ## Project setup
 ```
@@ -29,7 +35,3 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-postcss
-eslint
-mintui
-vw
