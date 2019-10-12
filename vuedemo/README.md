@@ -5,6 +5,14 @@
    mintui
    vw 
 ```
+### 注意事项
+
+      该转换在对img处理时，需对img样式进行修改，否则会导致手机端img不展示，在app.js中增加下列代码
+```
+img {
+    content: normal !important;
+  }
+```
 
 ## Project setup
 ```
